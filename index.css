@@ -1,0 +1,159 @@
+
+#main1 h1{
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.of1{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    width: 40%; 
+}
+
+.dv{
+    margin: 15px;
+    background: none;
+    border-radius: 20px;
+}
+
+.prç{
+    font-size: 25px;
+}
+
+.vrd{
+    color: var(--text-promo);
+    font-size: 15px;
+
+}
+
+.vrdes{
+    color: var(--text-promo);
+    font-weight: bold;
+}
+
+.ofertasDia{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#main2 h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#main2 .porcentagem button{
+    background: none;
+    border: none;
+}
+
+#main2 .porcentagem{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main3 h3{
+    padding-left: 10px;
+    padding-top:20px;
+}
+
+#main3 img{
+    width: 192px;
+}
+
+#main3 h4{
+    text-align: center;
+    padding: 10px;
+}
+
+
+header .hed2{
+    display: flex;
+    background-color: #fff159;
+}
+
+header .hed2 div{
+    transition: all 0.3s;
+    flex:1;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    background-position: center;
+}
+
+header .hed2 div:hover{
+    flex:2.3;
+    cursor: pointer
+} 
+
+header .hed2 #main-tags-veiculos{
+    background-image:url(../../img/header2/Astra-Sedan-Elegance-2.0-Vectra-Elegance-2.0-da-Chevrolet-Fox-Plus-1.0-e-Gol-P-1-e1603392943214.webp)
+}
+
+header .hed2 #main-tags-tecnologia{
+    background-image:url(../../img/header2/tech-recruiter.jpg)
+}
+
+header .hed2 #main-tags-casa{
+    background-image:url(../../img/header2/sala-de-estar-urban-jungle.webp)
+}
+
+header .hed2 #main-tags-eletro{
+    background-image:url(../../img/header2/eletro.jpg)
+}  
+
+header .hed2 #main-tags-esportes{
+    background-image:url(../../img/header2/sport.jpg)
+}
+
+header .hed2 #main-tags-ferramentas{
+    background-image:url(../../img/header2/ferramentas.webp)
+}
+
+header .hed2 #main-tags-construcao{
+    background-image:url(../../img/header2/construcao-civil.jpg)
+}
+
+
+.hed2:hover > :not(:hover){
+    opacity: 0.5;
+}
+
+.hed2 p{
+    text-align: center;
+    background-color: #fff159;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.hed2 .itemm:hover p {
+    opacity: 1;
+}
+
+.hed2 .itemm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.ofertasDia div:hover{
+    transition: all 0.5s;
+    box-shadow: 3px 2px 26px 0px rgba(75, 74, 68, 0.32);
+    border-radius: 15px;
+    margin: 0;
+}
+
+.porcentagem button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}

@@ -1,0 +1,33 @@
+
+#foot{
+    padding: 15px;
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.fot2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+
+
+footer{
+    background-color: var(--background-color);
+    font-display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-image: url(../../img/outros/rodape.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#main1 img,
+#main3 img{
+    width: 163px;
+    margin: 15px;
+}

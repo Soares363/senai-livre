@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/outros/senai.png" type="image/x-icon">
+    <title>Senai - login</title>
+</head>
+<body>
+
+    <header id="header">
+        <div class="hed1">
+            <a href="index.html"><figure><img class="logo" src="img/outros/logo.png" alt=""></figure></a>
+
+            <div id="barra_pesquisa">
+                <input type="text" name="pesquisa" id="barra" required minlength="1" maxlength="400" placeholder="Buscar produtos">
+                <button class="lupa" >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <nav id="links">
+    
+                <ul class="menu">
+                    <li><a href="#">Contato</a></li>
+                        <li><a class="submenu" href="#">Vendas ▾</a>
+                            <ul>
+                                <li><a href="vender.html">Vender</a></li>
+                                <li><a href="#">Anuncios</a></li>
+                                <li><a href="#">Carteira</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a class="submenu" href="#">Categorias ▾</a>
+                            <ul>
+                                <li><a href="#">Calçados</a></li>
+                                <li><a href="#">Eletronicos</a></li>
+                                <li><a href="#">Casa</a></li>
+                            </ul>
+                        </li>
+                    <li><a href="#">Historico</a></li>
+                    
+            </ul>
+            </nav>
+
+            <a href="login.html">
+                <figure class="user"><i class="fa-regular fa-user"></i></figure>
+            </a>
+            <button id="bars3"><figure><i class="fa-solid fa-bars"></i></figure></button>
+            
+        </div>
+
+    </header>
+
+    <main>
+        <div id="loginpg">
+            <div id="cadastro">
+
+                <h1>Crie uma conta!</h1>
+
+                <div class="forms-formulario-nome">
+                    <label for="Nome">Nome</label>
+                    <input type="text" name="name" id="Nome" required minlength="8" maxlength="15" placeholder="Insira seu nome">
+                </div>
+
+                <div class="forms-formulario-number">
+                    <label for="tel">Telefone</label>
+                    <input type="tel" name="tel" id="tel" required minlength="8" maxlength="15" placeholder="Insira seu numero">
+                </div>
+
+                <div class="forms-formulario-email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required minlength="10" maxlength="140" placeholder="Insira seu email">
+                </div>
+
+                <div class="forms-formulario-senha">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" required minlength="8" maxlength="15" placeholder="Insira sua senha">
+                </div>
+
+                <div class="botao">
+                    <button class="cadastro" type="submit">Cadastrar</button>
+                    <button class="login"><a href="cadastro.html">Jà possui conta? Fazer login</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="foot">
+            <div class="fot1">
+                <p>Copyright  ©  1999-2022 Ebazar.com.br LTDA <br></p><br>
+
+                <p>CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003, Bonfim, Osasco/SP Termos e condições Informações sobre seguros
+                CEP 06233-903 - empresa do grupo Mercado Livre</p>
+            </div>
+
+
+            <div class="fot2">
+                <p>
+                    Trabalhe conosco<br>
+                    Contato<br>
+                    Termos e condições<br>
+                </p>
+
+                <p>
+                    Acessibilidade <br>
+                    Como cuidamos da sua privacidade<br>
+                    Informações sobre seguros<br>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+
+<script src="https://kit.fontawesome.com/9fd8e21308.js" crossorigin="anonymous"></script>
+</body>
+</html>
